@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@types/lodash": "^3.10.1",
+    "@types/screeps": "^3.3.0",
+    "rollup": "^3.2.0",
+    "source-map": "^0.6.1"
+  },
+  "name": "screep-game-daily",
+  "description": "csh0101的screep游戏仓库，作为学习js和ts的入门工具",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "push": "rollup -cw  --bundleConfigAsCjs --environment DEST:main",
+    "local": "rollup -cw  --bundleConfigAsCjs --environment DEST:local",
+    "build": "rollup -cw --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csh0101/screep-game-daily.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csh0101/screep-game-daily/issues"
+  },
+  "homepage": "https://github.com/csh0101/screep-game-daily#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-screeps": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.34.1"
+  }
+}

@@ -1,0 +1,2 @@
+获得第一个Spawn
+//Game.spawns["Spawn1"]
